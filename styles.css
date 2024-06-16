@@ -1,0 +1,187 @@
+body {
+    background: linear-gradient(to bottom right, #3840b2, #c0c5ff) !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: serif;
+}
+  
+.container {
+    padding: 50px;
+    color: white;
+}
+
+header,
+footer {
+    text-align: center;
+    background-color: rgb(114, 120, 142);
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ffd6baff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Oculta todas las secciones por defecto */
+.container>section {
+    display: none;
+}
+
+/* Muestra la sección actualmente seleccionada */
+.container>section:target {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.mainBodySection {
+    margin: 10px 1px 10px 1px;
+    text-align: justify;
+}
+
+.text-content {
+    text-align: justify
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.buttons-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-content {
+    padding-bottom: 2rem;
+}
+
+.text-little-subtitle {
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.text-main-subtitle {
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    font-family: serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.text-contact {
+    color: rgb(0, 0, 0);
+    max-width: 36rem;
+  }
+
+.nav-title {
+    font-family: serif;
+    font-weight: bold;
+}
+
+.modal-header {
+    padding: 0.5rem 0.5rem !important;
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
